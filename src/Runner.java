@@ -56,11 +56,5 @@ public class Runner {
         for(Employee employee : topManagement){
             System.out.println(employee.getSalary());
         }
-
-
-
-
-
-
     }
 }
