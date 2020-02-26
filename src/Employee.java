@@ -102,9 +102,7 @@ public class Employee implements Comparable<Employee> {
                 Integer id2 = employee2.getId();
                 return id1.compareTo(id2);
             }
-
         };
-
     }
     public static Comparator<Employee> getCompBySalary() {
         return new Comparator<Employee>() {
@@ -114,11 +112,8 @@ public class Employee implements Comparable<Employee> {
                 Integer id2 = employee2.getId();
                 return id2.compareTo(id1);
             }
-
         };
-
     }
-
     @Override
     public int compareTo(Employee o) {
         return this.id - id;
